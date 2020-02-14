@@ -37,13 +37,32 @@ header{
 }
 
 .news-article{
-    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 25%;
+    border: 1px solid black;    
     width: 85%;
     height: 40vh;
+    grid-column-start: span 3;
+    grid-column-gap: 15px;
+    align-items: center;
 }
 
 .news-article img{
-    height: 50%;
-    width: 50%;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    height: 85%;
+    width: auto;
+    margin: 5px;
 }
 
+.news-article h3{
+    grid-row-start: 1;
+    grid-column-start: span 3;
+    margin: 15px 5px 5px 5px;
+}
+
+.news-article p{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}

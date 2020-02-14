@@ -16,23 +16,34 @@
                 <input id='keyword' type='text' />
             </div>
             <div class='input-wrap'>
-                <h3>Enter Country</h3>
-                <input id='country' type='text' />
+                <h3>Select Country</h3>
+                <select id='country'>
+                    <option>All</option>
+                </select>
             </div>
             <div class='input-wrap'>
                 <h3>Select News Source</h3>
                 <select id='source'>
                     <option>All</option>
-                </select>
+                </select>                
             </div>
             <div id='search-wrap'>
                 <button id='button' type='button'>Search</button>
+                <input id='everything' type='checkbox'  />
+                <label for="everything">Not just headlines</label>
+                <input id='top-headlines' type='checkbox'  />                
+                <label for="top-headlines">Just Headlines</label>
             </div>       
     </header>
 
     <section id='body-wrap'>
+        
         <!-- <p id='check'></p> -->
-        <!-- <div class='news-article'></div>
+        <!-- <div class='news-article'>
+            <img src='https://bit.ly/31SXyAN' alt='news' />
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos accusantium reiciendis deleniti facere, natus maiores eius corrupti ipsam repellendus fugit</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est neque amet quos quo, natus voluptatibus provident consequatur odio enim quod ullam dolorum fugit? Sapiente odio aliquam, necessitatibus architecto aperiam optio?</p>
+        </div>
         <div class='news-article'></div>
         <div class='news-article'></div>
         <div class='news-article'></div>
