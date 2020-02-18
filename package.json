@@ -1,0 +1,23 @@
+{
+  "name": "news",
+  "version": "1.0.0",
+  "description": "",
+  "main": "getData.js",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryanjl/World-News.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryanjl/World-News/issues"
+  },
+  "homepage": "https://github.com/bryanjl/World-News#readme"
+}
